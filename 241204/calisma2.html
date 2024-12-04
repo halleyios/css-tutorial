@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS Çalışması</title>
+    <link rel="stylesheet" href="tasarim.css">
+    <style>
+        /*calisma2.html içindeki geçerli olacak stiller*/
+
+        *{
+            margin:0;
+        }
+        li {
+            font-weight:bold;
+            background-color:#a4d4f8;
+            padding:10px; /*iç boşluk*/
+            margin:5px; /*dış boşluk*/
+        }
+        h1{
+            color:#ffffff;
+            background-color:#ffabcd;
+            padding:20px;
+
+        }
+        .yesil{
+            background-color:#4c814c;
+            color:#ffffff;
+        }
+        .kirmizi{
+            color: #ffffff;
+            background-color:#943333;
+        }
+        #sebze{
+            border: solid #1d2224 5px;
+            background-color: #cfd6da;
+            margin:0px;
+        }
+        #meyve{
+            border: solid #1d2224 5px;
+            background-color: #cfd6da;
+        }
+    </style>
+
+        <!-- Bu bölümde 3 seçici açıklancaktır -->
+
+        <!-- https://flatuicolors.com -->
+        <!-- etiket seçici  li etiketleri -> 
+         font-weigth bold, 
+         background-color #a4d4f8 
+         padding:10px;  sonra detaylı işlenecek
+         margin:5px;  sonra detaylı işlenecek
+        -->
+
+        <!-- siz yapın: h1 etiketinin arkaplan rengini #943333 yapın iç boşluğu 20px yapın-->
+
+        <!-- class(sınıf) seçici   classı yesil olanların arkaplan rengini yeşil yazı rengini beyaz-->
+        <!--  sıra sizde classı kirmizi olanların yazı rengini beyaz arkaplan rengini #ff7675 yapın. -->
+
+        <!-- id seçici sebze olan listeye border ekle 
+         border kuralı (stil renk kalınlık) arkaplanı da #cfd6da yapma
+         border: solid #1d2224 5px;
+         -->
+        <!-- sıra sizde
+         meyve olanın arkaplan #cfd6da çerçeve #1d2224 olsun. 
+        -->
+
+        <!-- Dikkat ederseniz. Sayfanın sol ve üst köşesinde boşluk var. Sebebi ne olabilir. Araştırabilir misiniz.
+         Ve sorunu nasıl düzeltiriz. İlk bulana çikolata -->
+
+        <!-- dahili stil kullanımı -->
+</head>
+<body>
+    
+
+        <h1>Sebzeler</h1>
+    <ul id="sebze">
+        <li class="yesil">Ispanak</li>
+        <li>Domates</li>
+        <li class="yesil">Marul</li>
+        <li>Patlıcan</li>
+        <li class="yesil">Brokoli</li>
+        <li>Biber</li>
+        <li class="yesil">Kabak</li>
+        <li>Soğan</li>
+        <li>Havuç</li>
+    </ul>
+
+    <h1>Meyveler</h1>
+    <ul id="meyve">
+        <li class="kirmizi">Elma</li>
+        <li class="kirmizi">Çilek</li>
+        <li>Muz</li>
+        <li>Portakal</li>
+        <li class="kirmizi">Kiraz</li>
+        <li>Armut</li>
+        <li>Kivi</li>
+        <li class="kirmizi">Nar</li>
+        <li>Üzüm</li>
+    </ul>
+
+</body>
+</html>
