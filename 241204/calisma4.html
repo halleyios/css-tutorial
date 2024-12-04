@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Display Özelliği</title>
+
+    <!-- Bu örnekte display özelliğinin bazı değerlerini göreceksiniz.-->
+    <!-- display:block, display:inline, display:inline-block -->
+    <!-- displayin çok fazla değeri var. bu içerikte saddece yukarıdakilere değineceğiz-->
+
+    <style>
+        h1,p{
+            width:300px;
+            background-color:rgb(168, 214, 252);
+            padding:10px 30px;
+        }
+        p{
+            background-color:rgb(201, 231, 255);
+        }
+        a{
+            color:#ffffff;
+            padding:10px 98px;
+            background-color:rgb(116, 21, 21);
+            display: inline-block;
+            text-align:center;
+
+        }
+
+      
+    </style>
+
+</head>
+<body>
+
+    <!-- HTMLde bazı öğeler ekranda blok olarak bazılarıda bulundukları satır içindeki (inline) yer kadar alan kaplarlar -->
+     <!-- 
+        örneğin h1, div, p  gibi etiketler blok elementlerdir.
+        a, img, span, i, u, etiketlerde satıriçi(inline) elementlerdir.
+     -->
+        <div>
+            <h1>Merhaba Dünya</h1>
+            <h1>Merhaba Dünya</h1>
+            <h1>Merhaba Dünya</h1>
+            <h1>Merhaba Dünya</h1>
+        </div>
+      
+        <div>
+            <p>Merhaba Dünya</p>
+            <p>Merhaba Dünya</p>
+            <p>Merhaba Dünya</p>
+            <p>Merhaba Dünya</p>
+        </div>
+
+        <div>
+            <a href="#">Merhaba Dünya</a>
+            <a href="#">Merhaba Dünya</a>
+            <a href="#">Merhaba Dünya</a>
+            <a href="#">Merhaba Dünya</a>
+        </div>
+
+        <div>
+            <img src="https://fakeimg.pl/300x200/f01818/ffffff?text=RESIM" alt="...">
+            <img src="https://fakeimg.pl/300x200/f01818/ffffff?text=RESIM" alt="...">
+            <img src="https://fakeimg.pl/300x200/f01818/ffffff?text=RESIM" alt="...">
+            <img src="https://fakeimg.pl/300x200/f01818/ffffff?text=RESIM" alt="...">
+        </div>
+        
+
+
+
+    
+</body>
+</html>
