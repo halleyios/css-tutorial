@@ -1,0 +1,28 @@
+.icerik{
+    width:400px;
+    margin: auto;
+    color: #dfe4ea;
+    text-align: center;
+    background-color: #57606f;  
+}
+.kita_tek{
+    color: #ff3838;
+    background-color: #ffcccc;
+    border: solid #1d2224 5px;
+    padding: 10px;
+    margin: 10px;
+}
+.kita_cift{
+    color: #ffcccc;
+    background-color: #ff3838;
+    border: solid #1d2224 5px;
+    padding: 10px;
+    margin: 10px;
+}
+#baslik{
+    background-color: #192a56;
+    padding: 10px;
+}
+*{
+    margin:0;
+}
